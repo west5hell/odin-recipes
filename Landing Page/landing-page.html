@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="flex flex-col min-h-screen">
+      <div class="bg-[#1F2937]">
+        <div class="max-w-[1000px] mx-auto">
+          <header class="flex justify-between items-center px-4 py-4">
+            <div class="text-2xl text-white font-bold">Header Logo</div>
+            <nav>
+              <ul class="flex gap-6">
+                <li>
+                  <a href="#" class="text-[#E5E7EB] text-lg">header link one</a>
+                </li>
+                <li>
+                  <a href="#" class="text-[#E5E7EB] text-lg">header link two</a>
+                </li>
+                <li>
+                  <a href="#" class="text-[#E5E7EB] text-lg"
+                    >header link three</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+          <section class="px-4 py-24 flex gap-8">
+            <div class="flex-1 space-y-4">
+              <h1 class="text-5xl font-extrabold text-white">
+                This website is awesome
+              </h1>
+              <p class="text-[#E5E7EB] text-lg">
+                This website has some subtext that goes here under the main
+                title. It&apos;s a smaller font and the color is lower contrast
+              </p>
+              <button
+                class="bg-[#3882F6] text-white px-8 py-2 rounded font-bold"
+              >
+                Sign up
+              </button>
+            </div>
+            <div class="flex-1">
+              <div
+                class="bg-[#6D747D] w-full aspect-[3/2] flex items-center justify-center text-[#E5E7EB]"
+              >
+                this is a placeholder for an image
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="max-w-[1000px] mx-auto">
+        <section class="py-16 px-4">
+          <h2 class="text-4xl font-bold text-center mb-12">
+            Some random information.
+          </h2>
+          <div class="flex justify-center gap-12">
+            <div class="w-40 flex flex-col items-center">
+              <div
+                class="w-full aspect-square rounded border-4 border-[#3882F6] mb-2"
+              ></div>
+              <p class="text-center text-[#1F2937]">
+                this is some subtext under an illustration or image
+              </p>
+            </div>
+            <div class="w-40 flex flex-col items-center">
+              <div
+                class="w-full aspect-square rounded border-4 border-[#3882F6] mb-2"
+              ></div>
+              <p class="text-center text-[#1F2937]">
+                this is some subtext under an illustration or image
+              </p>
+            </div>
+            <div class="w-40 flex flex-col items-center">
+              <div
+                class="w-full aspect-square rounded border-4 border-[#3882F6] mb-2"
+              ></div>
+              <p class="text-center text-[#1F2937]">
+                this is some subtext under an illustration or image
+              </p>
+            </div>
+            <div class="w-40 flex flex-col items-center">
+              <div
+                class="w-full aspect-square rounded border-4 border-[#3882F6] mb-2"
+              ></div>
+              <p class="text-center text-[#1F2937]">
+                this is some subtext under an illustration or image
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="bg-[#E5E7EB]">
+        <div class="max-w-[1000px] mx-auto">
+          <section class="py-24 px-4">
+            <figure class="max-w-[800px] mx-auto">
+              <blockquote>
+                <p class="text-[#1F2937] text-4xl font-light italic">
+                  This is an inspiring quote, or a testimonial from a customer.
+                  Maybe it&apos;s just filling up space, or maybe people will
+                  actually read it. Who knows? All I know is that it looks nice.
+                </p>
+              </blockquote>
+              <figcaption
+                class="text-right mt-4 text-2xl font-bold text-[#1F2937]"
+              >
+                -Thor, God of Thunder
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </div>
+      <div class="max-w-[1000px] mx-auto">
+        <section class="py-24 px-4">
+          <div
+            class="bg-[#3882F6] rounded-lg p-12 flex items-center justify-between gap-8"
+          >
+            <div class="text-white">
+              <h3 class="text-2xl font-bold">
+                Call to action! It&apos;s time!
+              </h3>
+              <p>
+                Sign up for our product by clicking that button right over
+                there!
+              </p>
+            </div>
+            <button
+              class="border-2 border-white text-white px-8 py-2 rounded font-bold"
+            >
+              Sign up
+            </button>
+          </div>
+        </section>
+      </div>
+      <div class="bg-[#1F2937] mt-auto">
+        <div class="max-w-[1000px] mx-auto">
+          <footer class="py-8 text-center text-[#E5E7EB]">
+            Copyright © The Odin Project 2021
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
